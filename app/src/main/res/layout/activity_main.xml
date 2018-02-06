@@ -17,8 +17,7 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:fontFamily="Roboto Light"
-            android:text="@string/main_question1_text"
-            android:textAllCaps="true" />
+            android:text="@string/main_question1_text" />
 
         <EditText
             android:id="@+id/edit_question1"
@@ -28,7 +27,7 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:hint="@string/main_hint_text"
-            android:inputType="textCapWords" />
+            android:textSize="@dimen/start_text_size" />
 
         <TextView
             android:id="@+id/question2"
@@ -39,8 +38,7 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:fontFamily="Roboto Light"
-            android:text="@string/main_question2_text"
-            android:textAllCaps="true" />
+            android:text="@string/main_question2_text" />
 
         <RadioGroup
             android:id="@+id/rgGroup1"
@@ -56,7 +54,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio1gp1_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -69,7 +66,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio2gp1_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -83,7 +79,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio3gp1_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -97,8 +92,7 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:fontFamily="Roboto Light"
-            android:text="@string/main_question3_text"
-            android:textAllCaps="true" />
+            android:text="@string/main_question3_text" />
 
 
         <CheckBox
@@ -148,7 +142,6 @@
             android:layout_marginTop="@dimen/main_margin_top"
             android:fontFamily="Roboto Light"
             android:text="@string/main_question4_text"
-            android:textAllCaps="true"
             android:textColor="#424242" />
 
 
@@ -166,7 +159,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio1gp2_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -179,7 +171,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio2gp2_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -193,7 +184,6 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio3gp2_text"
-                android:textAllCaps="true"
                 android:textColor="#424242"
                 android:textSize="@dimen/main_button_text_size" />
 
@@ -207,7 +197,6 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:text="@string/main_total_text"
-            android:textAllCaps="true"
             android:textColor="#424242" />
 
         <TextView
