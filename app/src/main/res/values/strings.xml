@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Simple Android Quiz</string>
+    <string name="start_text1">What do you know about Android?</string>
+    <string name="start_text2">Test your Knowledge with these questions</string>
+    <string name="main_question1_text">Question 1:In what year, was the first commercial Android device lunched?</string>
+    <string name="main_question2_text">Question 2: What is the android version 8.1 called?</string>
+    <string name="main_question3_text">Question 3: Which of these two are correct for android version names?</string>
+    <string name="main_question4_text">Question 4: In what year did Google buy Android?</string>
+    <string name="main_hint_text">Your Answer here...</string>
+    <string name="main_radio1gp1_text">Oreo</string>
+    <string name="main_radio2gp1_text">Lollipop</string>
+    <string name="main_radio3gp1_text">Sandwich</string>
+    <string name="main_radio1gp2_text">2002</string>
+    <string name="main_radio2gp2_text">2005</string>
+    <string name="main_radio3gp2_text">2013</string>
+    <string name="main_checkbox_text1">LOLLIPOP</string>
+    <string name="main_checkbox_text2">CHOCOLATE</string>
+    <string name="main_checkbox_text3">OREO</string>
+    <string name="main_total_text">Total Score</string>
+    <string name="main_scoredisplay_text">0</string>
+    <string name="main_submitbutton_text">Submit</string>
+    <string name="main_startbutton_text">Start</string>
+
+</resources>
