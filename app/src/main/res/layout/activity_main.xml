@@ -16,7 +16,7 @@
             android:layout_marginLeft="@dimen/main_margin_left"
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
-            android:fontFamily="Roboto Light"
+            android:fontFamily="@string/font_family_type"
             android:text="@string/main_question1_text" />
 
         <EditText
@@ -37,7 +37,7 @@
             android:layout_marginLeft="@dimen/main_margin_left"
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
-            android:fontFamily="Roboto Light"
+            android:fontFamily="@string/font_family_type"
             android:text="@string/main_question2_text" />
 
         <RadioGroup
@@ -54,7 +54,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio1gp1_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
             <RadioButton
@@ -66,7 +66,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio2gp1_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
 
@@ -79,7 +79,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio3gp1_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
         </RadioGroup>
@@ -91,7 +91,7 @@
             android:layout_marginLeft="@dimen/main_margin_left"
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
-            android:fontFamily="Roboto Light"
+            android:fontFamily="@string/font_family_type"
             android:text="@string/main_question3_text" />
 
 
@@ -105,7 +105,7 @@
             android:onClick="onCheckboxClicked"
             android:paddingLeft="@dimen/main_button_padding"
             android:text="@string/main_checkbox_text1"
-            android:textColor="#424242"
+            android:textColor="@color/colorMainText"
             android:textSize="@dimen/main_button_text_size" />
 
         <CheckBox
@@ -117,7 +117,7 @@
             android:onClick="onCheckboxClicked"
             android:paddingLeft="@dimen/main_button_padding"
             android:text="@string/main_checkbox_text2"
-            android:textColor="#424242"
+            android:textColor="@color/colorMainText"
             android:textSize="@dimen/main_button_text_size" />
 
         <CheckBox
@@ -129,7 +129,7 @@
             android:onClick="onCheckboxClicked"
             android:paddingLeft="@dimen/main_button_padding"
             android:text="@string/main_checkbox_text3"
-            android:textColor="#424242"
+            android:textColor="@color/colorMainText"
             android:textSize="@dimen/main_button_text_size" />
 
         <TextView
@@ -140,9 +140,9 @@
             android:layout_marginLeft="@dimen/main_margin_left"
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
-            android:fontFamily="Roboto Light"
+            android:fontFamily="@string/font_family_type"
             android:text="@string/main_question4_text"
-            android:textColor="#424242" />
+            android:textColor="@color/colorMainText" />
 
 
         <RadioGroup
@@ -159,7 +159,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio1gp2_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
             <RadioButton
@@ -171,7 +171,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio2gp2_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
 
@@ -184,7 +184,7 @@
                 android:onClick="onRadioButtonClicked"
                 android:paddingLeft="@dimen/main_button_padding"
                 android:text="@string/main_radio3gp2_text"
-                android:textColor="#424242"
+                android:textColor="@color/colorMainText"
                 android:textSize="@dimen/main_button_text_size" />
 
         </RadioGroup>
@@ -197,7 +197,7 @@
             android:layout_marginRight="@dimen/main_margin_right"
             android:layout_marginTop="@dimen/main_margin_top"
             android:text="@string/main_total_text"
-            android:textColor="#424242" />
+            android:textColor="@color/colorMainText" />
 
         <TextView
             android:id="@+id/total_score_text_view"
@@ -207,7 +207,7 @@
             android:layout_marginLeft="@dimen/main_margin_left"
             android:layout_marginRight="@dimen/main_margin_right"
             android:text="@string/main_scoredisplay_text"
-            android:textColor="#424242"
+            android:textColor="@color/colorMainText"
             android:textSize="@dimen/score_text_size" />
 
 

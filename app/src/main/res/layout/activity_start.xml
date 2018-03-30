@@ -13,13 +13,12 @@
         android:layout_marginLeft="@dimen/main_margin_left"
         android:layout_marginRight="@dimen/main_margin_right"
         android:layout_marginTop="@dimen/start_margin_top"
-        android:fontFamily="Roboto Light"
+        android:fontFamily="@string/font_family_type"
         android:text="@string/start_text1"
-        android:textColor="#424242"
+        android:textColor="@color/colorMainText"
         android:textSize="@dimen/start_text_size" />
 
     <ImageView
-
         android:id="@+id/android_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,9 +35,9 @@
         android:layout_marginLeft="@dimen/main_margin_left"
         android:layout_marginRight="@dimen/main_margin_right"
         android:layout_marginTop="@dimen/start_margin_top"
-        android:fontFamily="Roboto Light"
+        android:fontFamily="@string/font_family_type"
         android:text="@string/start_text2"
-        android:textColor="#424242"
+        android:textColor="@color/colorMainText"
         android:textSize="@dimen/start_text_size" />
 
     <Button

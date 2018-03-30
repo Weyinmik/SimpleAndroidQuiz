@@ -7,6 +7,7 @@
     <string name="main_question3_text">Question 3: Which of these two are correct for android version names?</string>
     <string name="main_question4_text">Question 4: In what year did Google buy Android?</string>
     <string name="main_hint_text">Your Answer here...</string>
+    <string name="main_question1_answer">2008</string>
     <string name="main_radio1gp1_text">Oreo</string>
     <string name="main_radio2gp1_text">Lollipop</string>
     <string name="main_radio3gp1_text">Sandwich</string>
@@ -20,5 +21,6 @@
     <string name="main_scoredisplay_text">0</string>
     <string name="main_submitbutton_text">Submit</string>
     <string name="main_startbutton_text">Start</string>
+    <string name="font_family_type">Roboto Light</string>
 
 </resources>
