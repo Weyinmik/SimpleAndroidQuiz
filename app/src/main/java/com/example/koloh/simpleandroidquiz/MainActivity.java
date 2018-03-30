@@ -177,6 +177,6 @@ public class MainActivity extends AppCompatActivity {
      * HELPFUL RESOURCES:
      * 1. Android Logo from http://pngimg.com/imgs/logos/android_logo/
      * 2. Answer help from https://stackoverflow.com/questions/44142020/android-checkbox-radio-button-score-quiz-app
-     * 3. https://github.com/LironYA
+    
      */
 }

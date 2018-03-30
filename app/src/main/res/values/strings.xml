@@ -13,9 +13,9 @@
     <string name="main_radio1gp2_text">2002</string>
     <string name="main_radio2gp2_text">2005</string>
     <string name="main_radio3gp2_text">2013</string>
-    <string name="main_checkbox_text1">LOLLIPOP</string>
-    <string name="main_checkbox_text2">CHOCOLATE</string>
-    <string name="main_checkbox_text3">OREO</string>
+    <string name="main_checkbox_text1">Lollipop</string>
+    <string name="main_checkbox_text2">Chocolate</string>
+    <string name="main_checkbox_text3">Oreo</string>
     <string name="main_total_text">Total Score</string>
     <string name="main_scoredisplay_text">0</string>
     <string name="main_submitbutton_text">Submit</string>
