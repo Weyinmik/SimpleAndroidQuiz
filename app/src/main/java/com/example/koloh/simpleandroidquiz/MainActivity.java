@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             score = 1;
         } else {
             score = 0;
+            Toast.makeText ( MainActivity.this, "Your answer is in correct in question 1", Toast.LENGTH_SHORT ).show ();
         }
 
         // This shows which RadioButton in question 2 is clicked and scores are assigned to them
