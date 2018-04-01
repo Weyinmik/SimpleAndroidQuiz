@@ -33,11 +33,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String question1_answer = "2008";
                 EditText question1 = (EditText) findViewById ( R.id.edit_question1 );
-                String questionOne = question1.getText ().toString ();
+                String questionOne = question1.getText ().toString ().trim ();
                 if (questionOne.equals ( question1_answer )) {
                     score = 1;
                 } else {
                     score = 0;
+                    Toast.makeText ( MainActivity.this, "Your answer is in correct in question 1", Toast.LENGTH_SHORT ).show ();
                 }
 
                 // This shows which RadioButton in question 2 is clicked and scores are assigned to them
@@ -93,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         }
         String question1_answer = "2008";
         EditText question1 = (EditText) findViewById ( R.id.edit_question1 );
-        String questionOne = question1.getText ().toString ();
+        String questionOne = question1.getText ().toString ().trim ();
         if (questionOne.equals ( question1_answer )) {
             score = 1;
         } else {
