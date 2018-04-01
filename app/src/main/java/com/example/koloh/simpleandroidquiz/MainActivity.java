@@ -49,12 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 // This shows which CheckBox is clicked and scores are assigned to them
-
-                if (((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked () && (((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ())) {
+                if (((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked () && (((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ()) && !(((CheckBox) findViewById ( R.id.checkbox_chocolate )).isChecked ())) {
                     score = score + 1;
-                }
-                if (((CheckBox) findViewById ( R.id.checkbox_chocolate )).isChecked () && !(((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ()) && !(((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked ())) {
-                    score = score + 0;
                 }
 
                 // This shows which RadioButton in question 4 is clicked and scores are assigned to them
@@ -113,12 +109,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // This shows which CheckBox is clicked and scores are assigned to them
-
-        if (((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked () && (((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ())) {
+        if (((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked () && (((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ()) && !(((CheckBox) findViewById ( R.id.checkbox_chocolate )).isChecked ())) {
             score = score + 1;
-        }
-        if (((CheckBox) findViewById ( R.id.checkbox_chocolate )).isChecked () && !(((CheckBox) findViewById ( R.id.checkbox_oreo )).isChecked ()) && !(((CheckBox) findViewById ( R.id.checkbox_lollipop )).isChecked ())) {
-            score = score + 0;
         }
 
         // This shows which RadioButton in question 4 is clicked and scores are assigned to them
